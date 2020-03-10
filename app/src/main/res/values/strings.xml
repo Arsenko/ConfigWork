@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ConfigWork</string>
+    <string-array name="headings">
+        <item>Настройки</item>
+        <item>Записная книжка</item>
+        <item>Монитор жизненых показателей</item>
+        <item>Время выполнения задач</item>
+        <item>Беконечный переход</item>
+        <item>Регистрация</item>
+        <item>Взаимоисключающие CheckBox</item>
+        <item>Logo</item>
+    </string-array>
+</resources>
