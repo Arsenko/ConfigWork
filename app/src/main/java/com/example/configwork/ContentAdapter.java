@@ -1,8 +1,6 @@
 package com.example.configwork;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,9 +12,9 @@ import android.widget.TextView;
 import java.util.List;
 
 public class ContentAdapter extends BaseAdapter {
-    List<ContentList> items;
-    LayoutInflater inflaiter;
-    Context context;
+    private List<ContentList> items;
+    private LayoutInflater inflaiter;
+    private Context context;
 
     public ContentAdapter(Context ctx,List<ContentList> items){
         this.context=ctx;

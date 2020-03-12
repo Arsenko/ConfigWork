@@ -3,8 +3,6 @@ package com.example.configwork;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -34,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<ContentList> conList=new ArrayList<>();
         String[] headingString= getResources().getStringArray(R.array.headings);
         for(int i=0;i<headingString.length;i++){
-            conList.add(new ContentList(getDrawable(R.drawable.ic_launcher_foreground),headingString[i],"project",false));
+            conList.add(new ContentList(getDrawable(R.drawable.ic_launcher_foreground),
+                    headingString[i],"project",false));
         }
         return conList;
     }
